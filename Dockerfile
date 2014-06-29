@@ -10,4 +10,4 @@ ADD services/ /etc/supervisor/conf.d/
 
 EXPOSE 11211
 
-CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/supervisord.conf"]
+CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisord.conf"]
