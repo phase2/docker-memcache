@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t phase2/memcache .
+docker build -t outrigger/memcache .
